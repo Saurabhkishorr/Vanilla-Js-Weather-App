@@ -14,11 +14,18 @@ Users can easily check the current weather conditions, temperature, and forecast
 <br>
 - JavaScript: The primary programming language used for app logic and functionality.
 - HTML/CSS: Structuring the app's layout and styling for an appealing user interface.
-- Weather API: Utilizes a weather API to fetch real-time weather data.
+- Weather API: Utilizes a openweather API to fetch real-time weather data.
 
 **Usage**
 
 - To check the weather for a different location, use the search bar and enter the desired location.
 - The app will fetch and display the latest weather information for the entered location.
+
+**API Key**
+
+To use this Weather App, you'll need to obtain an API key from a supported weather API provider (Here used from openweather) and 
+replace the placeholder (const apiKey = 'your-api-key';) in the JavaScript code with your key.
+
+
 
 
